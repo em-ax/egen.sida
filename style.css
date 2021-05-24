@@ -21,11 +21,12 @@ input {
     position: relative;
     left: 1000px;
     border-radius: 20px;
+    top: 45px;
 }
 
 img {
     width: 200px;
-    
+    border-radius: 20px;
 }
 
 li {
@@ -36,5 +37,41 @@ font: 1em sans-serif;
 add-text {
    position: relative;
    bottom: 185px;
-   font: 1em sans-serif;
+   font-family: 'Roboto Mono', monospace;
+}
+
+.dolma {
+    position: relative;
+    right: 700px;
+    bottom: 170px;
+}
+
+.tacos {
+    position: relative;
+    right: 545px;
+    bottom: 170px;
+
+}
+
+.t {
+
+}
+
+.pasta {
+    position: relative;
+    right: 420px;
+    bottom: 85px;
+}
+
+.p {
+    position: relative;
+    bottom: 100px;
+}
+
+button {
+    position: relative;
+    left: 950px;
+    bottom: 45px;
+    background-color: black;
+    color:rgb(161, 161, 161);
 }

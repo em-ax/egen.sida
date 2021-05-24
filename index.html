@@ -6,16 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAT</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <input type="search" name="sök" id="site-search">
-    <h1>MAT</h1>
+    <nav>
+        <input type="search" name="sök" id="site-search">
+        <h1>MAT</h1>
+        <button>ngt</button>
+        <form action="/page2" method="GET">
+            <button type="submit">continue</button>
+        </form>
+    </nav>
     <h2>Maträtter för vanliga dagar</h2>
     <li>Dolma</li>
     <img src="https://i1.wp.com/media.zeinaskitchen.se/2015/04/11227507_1633261206939706_8841104809571770403_n.jpg?resize=960%2C955" alt="">
-    <add-text>dolma är en rätt som tar lite tid att laga men passar till en stor familj</add-text>
+    <add-text>Dolma är en rätt som tar lite tid att laga men passar till en stor familj</add-text>
+    <a  class="dolma"href="https://zeinaskitchen.se/dolma/">show recept</a>
     <li>Tacos</li>
     <img src="https://mittkok.expressen.se/wp-content/uploads/2017/08/tacos-700x700.jpg" alt="">
-    <li>nej</li>
+    <add-text class="t">Tacos är en maträtt som hela fmiljen kan göra tillsammans</add-text>
+    <a class="tacos"href="https://mittkok.expressen.se/recept/tacos-klassiskt-recept/">show recept</a>
+    <li>Pasta</li>
+    <img src="https://cdn-rdb.arla.com/Files/arla-se/2485582835/17d593bd-6d99-44ab-a5f9-4649eb3b2972.jpg?mode=crop&w=1269&h=715&ak=f525e733&hm=e78d4790" alt="">
+    <add-text class="p">krämig och god patsa för lite finare matstil</add-text>
+    <a class="pasta"href="https://www.arla.se/recept/kycklingpasta-med-spenat-och-grillade-gronsaker/">show recept</a>
 </body>
 </html>
