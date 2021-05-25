@@ -72,3 +72,8 @@ button {
     background-color: black;
     color:rgb(161, 161, 161);
 }
+
+/* Screen Size (SM, 600) - MINDRE SKÄRMAR */
+@media screen and (min-width: 600px) {
+	
+}
