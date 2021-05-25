@@ -67,13 +67,21 @@ add-text {
 
 button {
     position: relative;
-    left: 950px;
+    left: 900px;
     bottom: 45px;
     background-color: black;
     color:rgb(161, 161, 161);
+    border: none;
+    border-radius: 10px;
 }
 
 /* Screen Size (SM, 600) - MINDRE SKÄRMAR */
 @media screen and (min-width: 600px) {
 	
+}
+
+.egen {
+    position: relative;
+    bottom: 63px;
+    left: 800px;
 }
