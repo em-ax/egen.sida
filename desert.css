@@ -1,3 +1,17 @@
-body {
-    background-color: blue;
+h1 {
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
 }
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
